@@ -1,0 +1,41 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Historia{% endblock %}
+
+{% block content %}
+<section class="page-section about-heading">
+  <div class="container">
+    <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/about.jpg' %}" alt="">
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper"></span>
+              <span class="section-heading-lower">Nuestra historia</span>
+            </h2>
+            <p>Esta firma surgió a partir de la necesidad de conocer un valor real o significativo de
+                las inversiones considerando diferentes escenarios probabilísticos de las variables
+                económico-financieras, con la finalidad de mitigar los diferentes riesgos de crédito,
+                mercado, liquidez y operativos a los cuales se encuentran expuestas las organizaciones
+                tanto públicas como privadas.
+            </p>
+            <h2 class="section-heading mb-4">
+                <span class="section-heading-upper"></span>
+                <span class="section-heading-lower">Nuestro objetivo</span>
+              </h2>
+              <p>Es crear mayor valor en los activos de las organizaciones, por medio del análisis de
+                  modelos financieros capaces de optimizar recursos de nuestros clientes mediante el
+                  análisis de sensibilidad y la creación de escenarios probabilísticos de variables
+                  financieras, permitiéndoles a nuestros clientes tomar una mejor toma de decisiones
+                  que impactan en sus resultados.
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
